@@ -142,6 +142,8 @@ section {
 
 .anime-link {
   display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .anime-item {
@@ -198,6 +200,7 @@ section {
   width: 36px;
   height: 36px;
   cursor: pointer;
+  z-index: 1;
   transition:
     transform 0.3s ease,
     filter 0.3s ease;
